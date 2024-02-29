@@ -16,7 +16,7 @@ void main(){
 
     testWidgets('Check for the menu items', (tester) async {
       await initApp(tester);
-      final mainScreen = MainScreen(tester);
+
       final menuSreen = Sidebar(tester);
 
       final scaffoldFinder = find.byType(Scaffold);
